@@ -1,0 +1,5 @@
+com/netcompany/pages/ThreadGetApi.class
+com/netcompany/helpers/CommonActions.class
+com/netcompany/testBase/TestBase.class
+com/netcompany/runner/TestRunner.class
+com/netcompany/steps/ThreadGetSteps.class
