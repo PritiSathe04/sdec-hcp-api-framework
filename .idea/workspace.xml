@@ -42,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cucumber Java.Feature: ThreadGet.executor": "Run",
+    "JUnit.ThreadGetApiTest.verifyGetThreadResponseCode.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -53,13 +54,54 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/prsat/Desktop/SDEC_POC_FINAL/SDEC-HCP-API-Framework",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.netcompany.tests" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ThreadGetApiTest.verifyGetThreadResponseCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.netcompany.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.netcompany.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.netcompany.tests.ThreadGetApiTest" />
+      <option name="METHOD_NAME" value="verifyGetThreadResponseCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="POC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="POC" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ThreadGetApiTest.verifyGetThreadResponseCode" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
