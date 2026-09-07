@@ -1,6 +1,6 @@
 {
   "id" : "123456ABCDEF",
-  "threadReference": "THREAD-001",
+  "threadReference": "THREAD-002",
   "status": "Active",
   "associatedCaseReference": "CASE-001"
 }
