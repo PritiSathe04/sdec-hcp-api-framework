@@ -11,7 +11,7 @@ public class ThreadGetApiTest {
     @Test
     void verifyGetThreadResponseCode() {
 
-        String url = "http://127.0.0.1:8080/v1/dummy/THREAD-001";
+        String url = "http://127.0.0.1:8080/v1/dummy/THREAD-002";
         int expectedResponseCode = 200;
 
         ThreadGetApi threadGetApi = new ThreadGetApi();

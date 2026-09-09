@@ -1,6 +1,6 @@
 {
-  "id" : "123456ABCDEF",
-  "threadReference": "THREAD-002",
+  "id": "123456ABCDEF",
+  "threadReference": "${RANDOM_THREAD_REFERENCE}",
   "status": "Active",
   "associatedCaseReference": "CASE-001"
 }

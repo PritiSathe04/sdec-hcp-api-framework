@@ -8,6 +8,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -25,6 +26,14 @@ public class ThreadPostApiTest {
                 )
         );
 
+        String randomThreadReference = "THREAD-" +
+                String.format("%03d", new Random().nextInt(1000));
+
+        requestBody = requestBody.replace(
+                "${RANDOM_THREAD_REFERENCE}",
+                randomThreadReference
+        );
+
         ThreadPostApi threadPostApi = new ThreadPostApi();
 
         int actualResponseCode =
@@ -35,5 +44,4 @@ public class ThreadPostApiTest {
                 actualResponseCode
         );
     }
-
 }
