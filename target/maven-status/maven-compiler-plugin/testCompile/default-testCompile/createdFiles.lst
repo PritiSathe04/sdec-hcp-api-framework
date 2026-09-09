@@ -1,5 +1,8 @@
 com/netcompany/pages/ThreadGetApi.class
+com/netcompany/pages/ThreadPutApi.class
+com/netcompany/tests/ThreadPostApiTest.class
 com/netcompany/helpers/CommonActions.class
 com/netcompany/testBase/TestBase.class
-com/netcompany/runner/TestRunner.class
-com/netcompany/steps/ThreadGetSteps.class
+com/netcompany/tests/ThreadGetApiTest.class
+com/netcompany/tests/ThreadPutApiTest.class
+com/netcompany/pages/ThreadPostApi.class
